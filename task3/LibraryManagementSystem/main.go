@@ -10,8 +10,8 @@ func main() {
 	library := services.NewLibrary()
 
 	// add sample members
-	library.Member[1] = models.Member{Id: 1, Name: "Alice"}
-	library.Member[2] = models.Member{Id: 2, Name: "Bob"}
+	library.Member[1] = models.Member{Id: 1, Name: "FirstUser"}
+	library.Member[2] = models.Member{Id: 2, Name: "SecondUser"}
 
 	controllers.StartLibrary(library)
 }
