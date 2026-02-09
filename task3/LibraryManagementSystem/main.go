@@ -1,24 +1,17 @@
 package main
 
-import "fmt"
-
-type Person struct {
-	name string
-	age  int
-}
-
-func (p Person) printname() (string, int) {
-	return p.name, p.age
-}
+import (
+	"github.com/shuzeyfa/GolangPracticeCode/task3/LibraryManagementSystem/controllers"
+	"github.com/shuzeyfa/GolangPracticeCode/task3/LibraryManagementSystem/models"
+	"github.com/shuzeyfa/GolangPracticeCode/task3/LibraryManagementSystem/services"
+)
 
 func main() {
+	library := services.NewLibrary()
 
-	first := Person{
-		name: "first",
-		age:  12,
-	}
+	// add sample members
+	library.Member[1] = models.Member{Id: 1, Name: "Alice"}
+	library.Member[2] = models.Member{Id: 2, Name: "Bob"}
 
-	fmt.Println(first.name, first.age)
-	fmt.Println(first.printname())
-
+	controllers.StartLibrary(library)
 }
