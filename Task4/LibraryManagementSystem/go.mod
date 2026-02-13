@@ -1,3 +1,4 @@
-module github.com/shuzeyfa/GolangPracticeCode/task3/LibraryManagementSystem
+module Task4
 
 go 1.25.7
+

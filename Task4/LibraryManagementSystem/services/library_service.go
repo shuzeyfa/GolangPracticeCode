@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/shuzeyfa/GolangPracticeCode/task3/LibraryManagementSystem/models"
+	"Task4/models"
 )
 
 type LibraryManager interface {

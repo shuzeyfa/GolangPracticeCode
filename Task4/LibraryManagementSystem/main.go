@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/shuzeyfa/GolangPracticeCode/task3/LibraryManagementSystem/controllers"
-	"github.com/shuzeyfa/GolangPracticeCode/task3/LibraryManagementSystem/models"
-	"github.com/shuzeyfa/GolangPracticeCode/task3/LibraryManagementSystem/services"
+	"Task4/controllers"
+	"Task4/models"
+	"Task4/services"
 )
 
 func main() {

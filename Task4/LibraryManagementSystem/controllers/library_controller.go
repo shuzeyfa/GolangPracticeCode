@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/shuzeyfa/GolangPracticeCode/task3/LibraryManagementSystem/models"
-	"github.com/shuzeyfa/GolangPracticeCode/task3/LibraryManagementSystem/services"
+	"Task4/models"
+	"Task4/services"
 )
 
 func StartLibrary(library *services.Library) {
